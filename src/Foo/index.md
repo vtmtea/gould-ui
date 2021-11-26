@@ -12,7 +12,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Foo } from 'react-ui-library';
+import { Foo } from 'gould-ui';
 
 export default () => <Foo title="First Demo" />;
 ```

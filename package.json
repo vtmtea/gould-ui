@@ -1,6 +1,6 @@
 {
   "private": true,
-  "name": "react-ui-library",
+  "name": "gould-ui",
   "version": "1.0.0",
   "scripts": {
     "start": "dumi dev",

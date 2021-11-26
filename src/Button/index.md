@@ -14,7 +14,7 @@ Demo:
 
 ```tsx
 import React from 'react';
-import { Button } from 'react-ui-library';
+import { Button } from 'gould-ui';
 
 export default () => <Button title="Button Demo" />;
 ```

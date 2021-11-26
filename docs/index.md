@@ -1,7 +1,7 @@
 ---
 hero:
-  title: react-ui-library
-  desc: react-ui-library site example
+  title: gould-ui
+  desc: gould-ui library
   actions:
     - text: Getting Started
       link: /components
