@@ -10,12 +10,17 @@ group:
 ## Button 按钮
 ###### 常用的操作按钮
 
-Demo:
+Basic Examples:
 
 ```tsx
 import React from 'react';
-import { Button } from 'gould-ui';
+import { GuButton } from 'gould-ui';
 
-export default () => <Button title="Button Demo" />;
+export default () => (
+  <>
+  <GuButton>default button</GuButton>
+  <GuButton type="primary">primary button</GuButton>
+    </>
+)
 ```
 

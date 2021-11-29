@@ -1,12 +1,16 @@
 import React from 'react';
+import classNames from 'classnames';
 
 interface IButtonProps {
-  title: string;
+  type: string,
+  children: string
 }
 
-function Button(props: IButtonProps) {
-  const { title } = props;
-  return <button>{title}</button>;
+function GuButton(props: IButtonProps) {
+  const { type = 'default',children } = props;
+  return <button className={classNames('btn', `btn-${type}`)}>
+    {children}
+  </button>;
 }
 
-export default Button;
+export default GuButton;
