@@ -1,6 +1,6 @@
 ---
 hero:
-  title: gould-ui
+  title: Gould UI Design
   desc: gould-ui library
   actions:
     - text: Getting Started

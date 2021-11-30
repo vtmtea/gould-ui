@@ -1,0 +1,34 @@
+@import url('../../assets/css/index');
+.gu-btn {
+  display: inline-block;
+  color: #747a80;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: transparent;
+  border: 2px solid transparent;
+  padding: 0.316rem 0.632rem;
+  font-size: 0.875rem;
+  line-height: 1.5;
+  border-radius: 2px;
+
+  &:not(:disabled) {
+    cursor: pointer;
+  }
+
+  &-default {
+    color: #525a62;
+  }
+
+  &[class*='gu-btn-']:not([class*='gu-btn-default']) {
+    color: #fff;
+  }
+
+  &-default {
+    background-color: #f6f6f6;
+  }
+  &-primary {
+    background-color: #2196f3;
+  }
+}
