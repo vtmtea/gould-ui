@@ -8,13 +8,19 @@ interface IGuButtonProps {
    * @default default
    */
   type: string;
+  outline?: boolean;
   children: string;
 }
 
 function GuButton(props: IGuButtonProps) {
-  const { type = 'default', children } = props;
+  const { type = 'default', outline, children } = props;
   return (
-    <button className={classNames('gu-btn', `gu-btn-${type}`)}>
+    <button
+      className={classNames(
+        'gu-btn',
+        `gu-btn${outline ? '-outline' : ''}-${type}`,
+      )}
+    >
       {children}
     </button>
   );
