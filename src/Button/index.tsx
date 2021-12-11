@@ -4,7 +4,7 @@ import './index.less';
 
 interface IGuButtonProps {
   /**
-   * @description 按钮类型，可选值为：default, primary
+   * @description 按钮类型，可选值为：`default`, `primary`
    * @default default
    */
   type: string;
