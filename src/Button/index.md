@@ -15,7 +15,6 @@ Basic Examples:
 ```tsx
 import React from 'react';
 import { GuButton } from 'gould-ui';
-import '../../assets/css/demo.less';
 
 export default () => (
   <>
@@ -35,7 +34,6 @@ Outline Buttons
 ```tsx
 import React from 'react';
 import { GuButton } from 'gould-ui';
-import '../../assets/css/demo.less';
 
 export default () => (
   <>
